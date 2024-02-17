@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleado del Mes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div id="app">
+        <div class="vendedor">
+            <h2>Ventas de Juana</h2>
+            <div><label for="aquaJuana">Aqua:</label> <input type="number" id="aquaJuana"></div>
+            <div><label for="emocionJuana">Emoción:</label> <input type="number" id="emocionJuana"></div>
+            <div><label for="alegriaJuana">Alegría:</label> <input type="number" id="alegriaJuana"></div>
+            <div><label for="frescuraJuana">Frescura:</label> <input type="number" id="frescuraJuana"></div>
+        </div>
+
+        <div class="vendedor">
+            <h2>Ventas de Pedro</h2>
+            <div><label for="aquaPedro">Aqua:</label> <input type="number" id="aquaPedro"></div>
+            <div><label for="emocionPedro">Emoción:</label> <input type="number" id="emocionPedro"></div>
+            <div><label for="alegriaPedro">Alegría:</label> <input type="number" id="alegriaPedro"></div>
+            <div><label for="frescuraPedro">Frescura:</label> <input type="number" id="frescuraPedro"></div>
+        </div>
+
+        <button onclick="calcularVentas()">Calcular Ventas</button>
+        <div id="resultado" class="error"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
